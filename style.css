@@ -75,12 +75,16 @@ a:hover {
     padding-left: 0px;
 }
 
+li > a {
+    color: #FFF;
+}
+
 .col-sm-6 h4 {
     padding-left: 0px;
 }
 
-.auteur_commentaire {
-
+.font-size16 {
+    font-size: 16px;
 }
 
 /** Fin des modifications en cours **/
@@ -704,13 +708,11 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -795,7 +797,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #FFF;
 }
 
 .icons {
